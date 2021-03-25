@@ -5,3 +5,4 @@
 # Findings
 - the use of the temperature parameter τ substaionally improves the quality of the learned representations.
 - In the test setting, the class `7` is treated as a novel class. Without the temperature, the prototype evaluation resulted in the accuracy of 52%, but with the temperature, the accuracy increased to 84%.
+- With the `weight decay` as 1e-6 as in SimCLR and BYOL, the accuracy increases to 86%. 
